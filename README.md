@@ -13,6 +13,7 @@ _샵 프로세싱_
 [![Video Label](https://ia.media-imdb.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_UX182_CR0,0,182,268_AL_.jpg)](https://www.youtube.com/watch?v=QwievZ1Tx-8)<img width="150" height="100"></img>
 ***
 ## 나는 영화를 좋아해
+```
 >아무것도 못해요 왕초보입니다
 >>인터넷에 쳐보고 그냥 따라하고 있어요
 
@@ -21,6 +22,7 @@ _샵 프로세싱_
 >>제 목표는 저만의 웹사이트를 만드는 거예요
 >>>이것도 일종의 웹사이튼가 ?
 #### 그래도 배우는 재미가 있어요
+```
 
 ***
 
