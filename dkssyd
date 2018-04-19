@@ -1,0 +1,101 @@
+int x = 330;
+int y = 290;
+int speed1 = 6;
+int speed2 = 7;
+void setup() {
+//size(1200,900)
+fullScreen();
+
+}
+
+void draw() {
+  fill(183,y,x);
+  ellipse(x,y,70,70);
+  y = y + speed1;
+  if(y>height) {
+    speed1 = speed1*-1;
+  }
+  if(y<0) {
+    speed1 = speed1*-1;
+  }
+  
+  x = x+speed2;
+  if(x>width) {
+    speed2 = speed2*-1;
+  }
+  if(x<0) {
+    speed2 = speed2*-1;
+  }
+  
+   fill(y,x,192);
+  ellipse(x/2,y/2,70,70);
+  y = y + speed1;
+  if(y>height) {
+    speed1 = speed1*-1;
+  }
+  if(y<0) {
+    speed1 = speed1*-1;
+  }
+  
+  x = x+speed2;
+  if(x>width) {
+    speed2 = speed2*-1;
+  }
+  if(x<0) {
+    speed2 = speed2*-1;
+  }
+
+fill(y,188,x);
+  ellipse(x/3,y/2,70,70);
+  y = y + speed1;
+  if(y>height) {
+    speed1 = speed1*-1;
+  }
+  if(y<0) {
+    speed1 = speed1*-1;
+  }
+  
+  x = x+speed2;
+  if(x>width) {
+    speed2 = speed2*-1;
+  }
+  if(x<0) {
+    speed2 = speed2*-1;
+  }
+  fill(y,x/2,x);
+  ellipse(x/2,y,70,70);
+  y = y + speed1;
+  if(y>height) {
+    speed1 = speed1*-1;
+  }
+  if(y<0) {
+    speed1 = speed1*-1;
+  }
+  
+  x = x+speed2;
+  if(x>width) {
+    speed2 = speed2*-1;
+  }
+  if(x<0) {
+    speed2 = speed2*-1;
+  }
+  
+  fill(y/20,x,x/30);
+  ellipse(x,y,110,110);
+  y = y + speed2;
+  if(y>height) {
+    speed2 = speed2*-1;
+  }
+  if(y<0) {
+    speed2 = speed2*-1;
+  }
+  
+  x = x+speed1;
+  if(x>width) {
+    speed1 = speed1*-1;
+  }
+  if(x<0) {
+    speed1 = speed1*-1;
+  }
+  
+}
