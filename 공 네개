@@ -1,0 +1,16 @@
+void setup() {
+  size(1200,700);
+  background(115,131,126);
+}
+  
+void draw(){
+  fill(170,mouseX/2,mouseY/2);
+  ellipse(mouseX,mouseY,80,80);
+  fill(mouseY/2,mouseX/2,159);
+  ellipse(mouseY,mouseX,100,100);
+fill(170,mouseX,mouseY);
+  ellipse(mouseX/2,mouseY/2,50,50);
+  fill(190,mouseX/3,mouseY);
+  ellipse(mouseX+30,mouseY/2+130,50,50);
+}
+
