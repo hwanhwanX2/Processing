@@ -1,5 +1,6 @@
 PFont f;
 float angle = 0;
+int x=0;
 void setup() {
 size(900,900);
 f = createFont("BatangChe",16);  
@@ -19,6 +20,5 @@ text("너의 이름을 나에게 알려다오",10,0);
 fill(mouseX,random(50,130),mouseY);
 text("응 싫어",0,70);
 fill(random(50,130),mouseY,mouseX);
-text("웅 너한테 안물 ㅋㅋ",0,120);
+text("웅 너한테 안물 ㅋㅋ",x=x+1,120);
 }
-
