@@ -1,0 +1,5 @@
+PFont f;
+f = createFont("Georgia",16);
+textFont(f,36);
+fill(0);
+text("To be ornot to be.",10,100);
