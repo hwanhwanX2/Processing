@@ -1,3 +1,9 @@
+PFont f;
+float angle = 0;
+void setup() {
+size(900,900);
+f = createFont("BatangChe",16);  
+background(mouseY,random(50,130),mouseX);
 textFont(f,36);
 
 }
@@ -15,3 +21,4 @@ text("응 싫어",0,70);
 fill(random(50,130),mouseY,mouseX);
 text("웅 너한테 안물 ㅋㅋ",0,120);
 }
+
