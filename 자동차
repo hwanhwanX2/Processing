@@ -1,0 +1,22 @@
+size(400,400);
+background(255);
+int x = 100;
+int y = 100;
+int thesize = 64;
+int offset = thesize/4;
+
+
+
+rectMode(CENTER);
+stroke(0);
+
+fill(0);
+rect(x-offset,y-offset,offset,offset/3);
+rect(x-offset,y+offset,offset,offset/3);
+rect(x+offset,y-offset,offset,offset/3);
+rect(x+offset,y+offset,offset,offset/3);
+
+fill(188,200,191);
+rect(x,y,thesize,thesize/2);
+
+
