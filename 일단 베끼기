@@ -1,5 +1,17 @@
-PFont f;
-f = createFont("Georgia",16);
 textFont(f,36);
-fill(0);
-text("To be ornot to be.",10,100);
+
+}
+
+
+void draw() {
+  translate(width/2,height/2);
+fill(random(50,130),random(50,130),random(50,130));
+textAlign(CENTER);
+rotate(angle);
+angle += 0.03;
+text("너의 이름을 나에게 알려다오",10,0);
+fill(mouseX,random(50,130),mouseY);
+text("응 싫어",0,70);
+fill(random(50,130),mouseY,mouseX);
+text("웅 너한테 안물 ㅋㅋ",0,120);
+}
