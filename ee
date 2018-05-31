@@ -1,0 +1,56 @@
+Car ee;
+Car ee2;
+Car ee3;
+
+
+void setup() {
+  size(700,500);
+  ee = new Car(color(120,130,240),0,height/2,3);
+  ee2 = new Car(color(0,255,0),250,height/2,3);
+  ee3 = new Car(color(255,81,0),500,height/2,3);
+}
+
+void draw() {
+  background(0);
+  ee.display(50,30);
+  ee.drive();
+  
+  ee2.display(150,30);
+  ee2.drive();
+  
+  ee3.display(150,30);
+  ee3.drive();
+}
+
+//두번째장
+
+class Car {
+  color c;
+int xpos;
+int ypos;
+int xspeed;
+
+
+Car(color tempC, int tempXpos, int tempYpos, int tempXspeed) {
+  c = tempC;
+  xpos = tempXpos;
+  ypos = tempYpos;
+  xspeed = tempXspeed;
+  }
+  
+  void display(int x, int y){
+  rectMode(CENTER);
+  fill(c);
+  rect(xpos,ypos,3,130);
+}
+
+
+
+
+void drive() {
+  xpos = xpos + xspeed;
+  if (xpos > width) {
+    xpos = 0;
+  }
+}
+}
